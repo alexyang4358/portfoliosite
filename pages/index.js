@@ -9,11 +9,11 @@ import {
   Button,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { ChevronRightIcon } from "@chakra-ui/icons";
 
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { BioSection, BioYear } from "../components/bio";
-import { ChevronRightIcon } from "@chakra-ui/icons";
 
 const Page = () => {
   return (
@@ -25,10 +25,10 @@ const Page = () => {
         borderRadius="lg"
         align="center"
       >
-        I'm a full-stack developer, graphic designer & aspiring UX consultant.
+        The glove compartment is inaccurately named, and everybody knows it.
       </Box>
 
-      <Box display={{ md: "flex" }}>
+      <Box display={{ sm: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Alex Yang
@@ -37,7 +37,7 @@ const Page = () => {
           <p>Based in Raleigh, NC</p>
         </Box>
         <Box
-          flexShrink={0}
+          flexShrink={1}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
           align="center"

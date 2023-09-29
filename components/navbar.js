@@ -1,6 +1,8 @@
-import React from 'react'
-import NextLink from 'next/link'
-import Logo from './logo'
+import { forwardRef } from "react";
+
+import React from "react";
+import NextLink from "next/link";
+import Logo from "./logo";
 import {
   Container,
   Heading,
@@ -15,38 +17,43 @@ import {
   useBreakpointValue,
   MenuItem,
   MenuList,
-  MenuLink
-} from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from './theme-button'
+} from "@chakra-ui/react";
+import { HamburgerIcon } from "@chakra-ui/icons";
+import ThemeToggleButton from "./theme-button";
 
 const LinkItem = ({ href, path, children }) => {
-  const active = path === href
-  const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
+  const active = path === href;
+  const inactiveColor = useColorModeValue("gray.800", "whiteAlpha.900");
   return (
     <Link
       as={NextLink}
       href={href}
       scroll={false}
       p={2}
-      bg={active ? 'grassTeal' : undefined}
-      color={active ? '#202023' : inactiveColor}
+      bg={active ? "grassTeal" : undefined}
+      color={active ? "#202023" : inactiveColor}
       target={target}
       {...props}
     >
       {children}
     </Link>
-  )
-}
+  );
+};
 
-const Navbar = props => {
+const MenuLink = forwardRef((props, ref) => (
+  <Link ref={ref} as={NextLink} {...props} />
+));
+
+const Navbar = (props) => {
+  const { path } = props;
+
   return (
     <Box
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
-      style={{ backdropFilter: 'blur(10px' }}
+      bg={useColorModeValue("#ffffff40", "#20202380")}
+      style={{ backdropFilter: "blur(10px" }}
       zIndex={1}
       {...props}
     >
@@ -59,7 +66,7 @@ const Navbar = props => {
         justify="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tight'}>
+          <Heading as="h1" size="lg" letterSpacing={"tight"}>
             <Logo />
           </Heading>
         </Flex>
@@ -87,7 +94,7 @@ const Navbar = props => {
         </Box>
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
