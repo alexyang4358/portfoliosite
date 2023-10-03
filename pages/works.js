@@ -7,6 +7,7 @@ import connected from "../public/images/connected.jpg";
 import spring from "../public/images/spring.jpg";
 import canes from "../public/images/canes.jpg";
 import signup from "../public/images/signup.jpg";
+import momentummusic from "../public/images/momentummusic.png";
 
 const Works = () => {
   return (
@@ -28,18 +29,22 @@ const Works = () => {
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
-            <WorkGridItem id="work2" title="front-end" thumbnail={signup}>
-              {/* Sample text about my first piece of work. */}
+            <WorkGridItem
+              id="projects"
+              title="full-stack development"
+              thumbnail={momentummusic}
+            >
+              projects from Momentum's immersive full-stack program
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
             <WorkGridItem id="work3" title="design" thumbnail={spring}>
-              {/* Sample text about my first piece of work. */}
+              from t-shirt designs to logos
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
             <WorkGridItem id="work4" title="advertisements" thumbnail={canes}>
-              {/* Sample text about my first piece of work. */}
+              variety of print and digital advertisements
             </WorkGridItem>
           </Section>
         </SimpleGrid>

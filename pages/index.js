@@ -8,6 +8,7 @@ import {
   Image,
   Button,
   useColorModeValue,
+  Link,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
@@ -92,19 +93,31 @@ const Page = () => {
         </Heading>
         <BioSection>
           <BioYear>2017</BioYear>
-          Print Graphic Designer at N2 Company
+          Print Graphic Designer at{" "}
+          <Link href="https://n2co.com/" target="_blank">
+            N2 Company
+          </Link>{" "}
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Web Ad Specialist at Hyport Digital
+          Web Ad Specialist at{" "}
+          <Link href="https://hyportdigital.com/" target="_blank">
+            Hyport Digital
+          </Link>{" "}
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Startup Partner at Inside Golf
+          Startup Partner at{" "}
+          <Link href="https://insidegolfnc.com/" target="_blank">
+            Inside Golf
+          </Link>{" "}
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Full-stack developer at Momentum
+          Full-stack developer at{" "}
+          <Link href="https://www.momentumlearn.com/" target="_blank">
+            Momentum
+          </Link>{" "}
         </BioSection>
       </Section>
 
@@ -114,8 +127,8 @@ const Page = () => {
         </Heading>
         <BioSection>
           <BioYear>2016</BioYear>
-          Graduated University of North Carolina Wilmington with a Bachelors in
-          Political Science and Minor in Digital Arts
+          UNIVERSITY OF NORTH CAROLINA WILMINGTON, Wilmington, NC B.A. in
+          Political Science, minor in Digital Arts,
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
