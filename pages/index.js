@@ -60,8 +60,8 @@ const Page = () => {
         <Paragraph>
           Meet Alex, a dynamic individual with a passion for creativity and a
           relentless drive for innovation. Aspiring to be a well-rounded
-          professional, Alex wears multiple hats in design, tech and golf world.
-          With an eye for aesthetics and a deep understanding of user
+          professional, Alex wears multiple hats in the design, tech and golf
+          world. With an eye for aesthetics and a deep understanding of user
           experience, they're a seasoned graphic designer who brings ideas to
           life with stunning visuals.
         </Paragraph>

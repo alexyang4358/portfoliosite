@@ -18,7 +18,7 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6} mt={5}>
         <Section>
-          <WorkGridItem id="work1" title="ux" thumbnail={connected}>
+          <WorkGridItem id="connected" title="ux" thumbnail={connected}>
             {/* Sample text about my first piece of work. */}
           </WorkGridItem>
         </Section>
