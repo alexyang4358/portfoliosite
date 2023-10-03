@@ -18,15 +18,15 @@ import { BioSection, BioYear } from "../components/bio";
 const Page = () => {
   return (
     <Container mt={20}>
-      <Box
+      {/* <Box
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         p={3}
         mb={6}
         borderRadius="lg"
         align="center"
       >
-        The glove compartment is inaccurately named, and everybody knows it.
-      </Box>
+        Hello, there.
+      </Box> */}
 
       <Box display={{ sm: "flex" }}>
         <Box flexGrow={1}>
@@ -63,9 +63,7 @@ const Page = () => {
           professional, Alex wears multiple hats in design, tech and golf world.
           With an eye for aesthetics and a deep understanding of user
           experience, they're a seasoned graphic designer who brings ideas to
-          life with stunning visuals. But that's not all – Alex also has a knack
-          for the intricate world of UX/UI engineering, crafting seamless and
-          user-centric digital experiences.
+          life with stunning visuals.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -78,6 +76,15 @@ const Page = () => {
             My portfolio
           </Button>
         </Box>
+      </Section>
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Technical Skills
+        </Heading>
+        <BioYear>
+          Adobe Illustrator, Photoshop, React, Django, JavaScript, Python,
+          Figma, HTML, CSS, Git/Github
+        </BioYear>
       </Section>
 
       <Section delay={0.2}>
@@ -95,6 +102,10 @@ const Page = () => {
         <BioSection>
           <BioYear>2022</BioYear>
           Startup Partner at Inside Golf
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Full-stack developer at Momentum
         </BioSection>
       </Section>
 
