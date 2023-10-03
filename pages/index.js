@@ -25,7 +25,7 @@ const Page = () => {
         borderRadius="lg"
         align="center"
       >
-        Hello, there.
+        Based in Raleigh, NC // 919-434-3535 // alexyang4358@gmail.com
       </Box> */}
 
       <Box display={{ sm: "flex" }}>
@@ -33,7 +33,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Alex Yang
           </Heading>
-          <p>Designer || Developer</p>
+          <p>Designer // Developer</p>
           <p>Based in Raleigh, NC</p>
         </Box>
         <Box
@@ -46,7 +46,7 @@ const Page = () => {
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            maxWidth="100px"
+            maxWidth="150px"
             display="inline-block"
             borderRadius="full"
             src="/images/yang.jpg"
@@ -58,12 +58,11 @@ const Page = () => {
           About
         </Heading>
         <Paragraph>
-          Meet Alex, a dynamic individual with a passion for creativity and a
-          relentless drive for innovation. Aspiring to be a well-rounded
-          professional, Alex wears multiple hats in the design, tech and golf
-          world. With an eye for aesthetics and a deep understanding of user
-          experience, they're a seasoned graphic designer who brings ideas to
-          life with stunning visuals.
+          Meet Alex, a dynamic individual with a passion for creativity. As a
+          well-rounded professional, Alex wears multiple hats in the design,
+          tech and golf world. They have a deep understanding for strong design,
+          user-friendly web applications and full-stack frameworks like React
+          and Django.
         </Paragraph>
         <Box align="center" my={4}>
           <Button

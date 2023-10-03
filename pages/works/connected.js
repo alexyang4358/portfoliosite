@@ -20,10 +20,10 @@ const Work = () => (
       </Title>
       <P>
         Connected is a web application designed for non-profit organizations
-        that work with refugees and asylum seekers. We designed the application
-        to allow organizations to share events with clients in a secure,
-        closed-loop system that helps the clients to have quick and easy access
-        to events of interest without the need for any social media accounts.
+        that work with refugees and asylum seekers. The application allows
+        organizations to share events with clients in a secure, closed-loop
+        system that helps the clients to have quick and easy access to events of
+        interest without the need for any social media accounts.
       </P>
       <Flex>
         <WorkImage src="/images/works/connected1.png"></WorkImage>
