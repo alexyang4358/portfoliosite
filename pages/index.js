@@ -1,5 +1,6 @@
 import NextLink from "next/link";
 import ButtonLink from "next/link";
+import { motion } from "framer-motion";
 
 import {
   Container,
@@ -15,18 +16,19 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { BioSection, BioYear } from "../components/bio";
-
 const Page = () => {
   return (
     <Container mt={20}>
-      {/* <Box
-        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-        mb={6}
-        h="2px"
-        borderRadius="20px"
-        align="center"
-        backgroundColor={useColorModeValue("teal.500", "teal.200")}
-      ></Box> */}
+      <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+        <Box
+          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+          mb={6}
+          h="2px"
+          borderRadius="20px"
+          align="center"
+          backgroundColor={useColorModeValue("teal.500", "teal.200")}
+        ></Box>
+      </motion.div>
 
       <Box display={{ sm: "flex" }}>
         <Box flexGrow={1}>
@@ -46,15 +48,17 @@ const Page = () => {
           ml={{ md: 6 }}
           align="center"
         >
-          <Image
-            borderColor="whiteAlpha.800"
-            borderWidth={2}
-            borderStyle="solid"
-            maxWidth="150px"
-            display="inline-block"
-            borderRadius="full"
-            src="/images/yang.jpg"
-          />
+          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+            <Image
+              borderColor="whiteAlpha.800"
+              borderWidth={2}
+              borderStyle="solid"
+              maxWidth="150px"
+              display="inline-block"
+              borderRadius="full"
+              src="/images/yang.jpg"
+            />
+          </motion.div>
         </Box>
       </Box>
       <Section delay={0.1}>
