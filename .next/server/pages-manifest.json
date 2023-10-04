@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/works": "pages/works.js",
+  "/works/projects": "pages/works/projects.js",
   "/": "pages/index.js",
-  "/works/connected": "pages/works/connected.js"
+  "/works/designs": "pages/works/designs.js"
 }

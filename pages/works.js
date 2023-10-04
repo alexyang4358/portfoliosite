@@ -38,7 +38,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
-            <WorkGridItem id="work3" title="design" thumbnail={spring}>
+            <WorkGridItem id="designs" title="design" thumbnail={spring}>
               from t-shirt designs to logos
             </WorkGridItem>
           </Section>

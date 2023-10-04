@@ -7,4 +7,10 @@ const Paragraph = styled.p`
   margin-top: 10px;
 `;
 
+const ParagraphDesigns = styled.p`
+  text-align: justify;
+  text-indent: 1em;
+  hyphens: auto;
+`;
+
 export default Paragraph;

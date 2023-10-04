@@ -21,17 +21,20 @@ const Page = () => {
     <Container mt={20}>
       {/* <Box
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-        p={3}
         mb={6}
-        borderRadius="lg"
+        h="2px"
+        borderRadius="20px"
         align="center"
-      >
-        Based in Raleigh, NC // 919-434-3535 // alexyang4358@gmail.com
-      </Box> */}
+        backgroundColor={useColorModeValue("teal.500", "teal.200")}
+      ></Box> */}
 
       <Box display={{ sm: "flex" }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
+          <Heading
+            color={useColorModeValue("teal", "#ff63c3")}
+            as="h2"
+            variant="page-title"
+          >
             Alex Yang
           </Heading>
           <p>Designer // Developer</p>
