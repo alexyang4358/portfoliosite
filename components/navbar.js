@@ -88,9 +88,9 @@ const Navbar = (props) => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/contact">
+                {/* <MenuItem as={MenuLink} href="/contact">
                   Contact
-                </MenuItem>
+                </MenuItem> */}
               </MenuList>
             </Menu>
           </Box>

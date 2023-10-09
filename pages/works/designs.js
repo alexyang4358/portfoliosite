@@ -25,8 +25,8 @@ const Work = () => (
         Graphic Design <Badge>2016-</Badge>
       </Title>
       <ParagraphDesigns>
-        Here's a showcase of my design portfolio spanning several years,
-        featuring logos, t-shirt designs, menus, and much more.
+        Here's a few pieces of design work that vary from logos, t-shirt
+        designs, menus, and much more.
       </ParagraphDesigns>
       <Grid
         mt="20px"
