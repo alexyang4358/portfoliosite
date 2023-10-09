@@ -32,10 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/designs": [
+    "/works/advertisements": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/designs.js"
+      "static/chunks/pages/works/advertisements.js"
     ]
   },
   "ampFirstPages": []
