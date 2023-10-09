@@ -35,15 +35,13 @@ const Work = () => (
         alignItems="center"
         justifyItems="center"
       >
-        <Image maxW="75%" m="5px" src="/images/tab.png" />
-        <p>i'm a caption</p>
-        <p>i'm a caption</p>
-        <Image maxW="75%" m="5px" src="/images/tab.png" />
+        <Image maxW="75%" m="5px" src="/images/cafe.png" />
 
-        <Image maxW="75%" m="5px" src="/images/tab.png" />
-        <p>i'm a caption</p>
-        <p>i'm a caption</p>
-        <Image maxW="75%" m="5px" src="/images/tab.png" />
+        <Image maxW="75%" m="5px" src="/images/cobart.png" />
+
+        <Image maxW="75%" m="5px" src="/images/lavita.png" />
+
+        <Image maxW="75%" m="5px" src="/images/menu.png" />
       </Grid>
     </Container>
   </Layout>
